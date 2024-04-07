@@ -8,6 +8,7 @@
 ## What
 
 **ValueRestriction** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining an enumeration to easily test a numerical value against some condition:
+
 ```swift
 public enum ValueRestriction<Value> where Value: Comparable {
 
@@ -75,10 +76,6 @@ extension ValueRestriction: Codable where Value: Codable {
 ## Installation
 
 **ValueRestriction** is provided only as a Swift Package Manager package, because I'm moving away from CocoaPods and Carthage, and can be easily installed directly from Xcode.
-
-## Author
-
-Wagner Truppel, trupwl@gmail.com
 
 ## License
 
